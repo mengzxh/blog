@@ -1,0 +1,7 @@
+*.xml
+*.iml
+*.log
+*.pyc
+*.so
+*.egg
+*.egg-info
