@@ -38,7 +38,7 @@ class User(db.Model, UserMixin):
 
     def avatar(self, size):
         digest = md5(self.email.lower().encode('utf-8'))
-        return 'https://cdn.v2ex.com/gravatar/{}?d=identicon&s={}'.format(
+        return 'https://www.gravatar.com/avatar/{}?d=identicon&s={}'.format(
             digest, size)
 
     def follow(self, user):
